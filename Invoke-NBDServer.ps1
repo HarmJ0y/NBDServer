@@ -28,6 +28,11 @@ Optional, file to serve ( \\.\PHYSICALDRIVE0 for example).
 
 Optional, partition on disk to serve (0 if not specified)
 
+.PARAMETER ListenPort
+
+Optional, port to listen on (60000 by default).
+
+
 .EXAMPLE
 
 Start the NBD server, only allowing 192.168.52.100 to connect, and share out \\.\PHYSICALDRIVE0
